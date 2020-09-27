@@ -67,16 +67,6 @@ Fork this project by clicking the __*Fork*__ button at the top right corner of t
 
 </div>
 
-<style>
-
-.gs-section-01 h3 { 
-     color: red }
-
-.gs-section-01 p {
-     font-size: 30px;
-}
-
-</style>
 
 <div class="gs-section-02" markdown="1">
 
@@ -86,16 +76,6 @@ Click on __*Settings*__ at the top (the cog icon) and on that page you'll have a
 
 </div>
 
-<style>
-
-.gs-section-02 h3 { 
-     color: blue }
-
-.gs-section-02 p {
-     font-size: 30px;
-}
-
-</style>
 
 <div class="gs-section-03" markdown="1">
 
@@ -107,16 +87,6 @@ Note that in the video above I only edited one setting in the `_config.yml` file
 
 </div>
 
-<style>
-
-.gs-section-03 h3 { 
-     color: green }
-
-.gs-section-03 p {
-     font-size: 30px;
-}
-
-</style>
 ### 4. Congratulations! You have a website!
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
@@ -260,3 +230,28 @@ You can also contribute by becoming an [official sponsor](https://github.com/spo
 This template was not made *entirely* from scratch. I'd like to give special thanks to [Jekyll Now](https://github.com/barryclark/jekyll-now) and [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from whom I've taken several ideas initially.
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+
+<style>
+
+.gs-section-01 h3 { 
+     color: red }
+
+.gs-section-01 p {
+     font-size: 30px;
+}
+
+.gs-section-02 h3 { 
+     color: g reen}
+
+.gs-section-02 p {
+     font-size: 40px;
+}
+
+.gs-section-03 h3 { 
+     color: blue }
+
+.gs-section-03 p {
+     font-size: 20px;
+}
+
+</style>
