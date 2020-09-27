@@ -241,7 +241,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 }
 
 .gs-section-02 h3 { 
-     color: g reen}
+     color: green}
 
 .gs-section-02 p {
      font-size: 40px;
