@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Mike's Github Site
 
 # Your name to show in the footer
-author: Some Person
+author: Michael Kulbida
 
 # --- List of links in the navigation bar --- #
 
@@ -39,10 +39,10 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: ""
+  facebook: ""
+  github: ""
+  twitter: ""
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -97,8 +97,8 @@ feed_show_tags: true
 navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
+page-col: "#000000"
+text-col: "#F8F8FF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#EAEAEA"
@@ -185,7 +185,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Phoenix"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
