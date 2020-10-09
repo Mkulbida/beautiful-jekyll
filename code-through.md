@@ -58,7 +58,7 @@ First we would select our x-variable, which in this case would be the number of 
 # Clean-up
 Texas has quite a few cities that are measured by this data set, and right now there is not much of anything that someone could gather by looking at this graph.  With 'esquisse' it is a breeze to clean and alter your visualization to meet your wishes.
 
-It's fairly clear that we cannot analyze every city in Texas at the same time, so we will narrow it down to the 6 largest cities and include Waco because of Chip and Joanna Gaines. In order to do this we simply click on the "Data" tab at the bottom of the interface.
+It's fairly clear that we cannot analyze every city in Texas at the same time, so we will narrow it down to the 6 largest cities and include Waco because Chip and Joanna Gaines are amazing. In order to do this we simply click on the "Data" tab at the bottom of the interface.
 
 ![](images/edit_data.png)
 
