@@ -1,13 +1,3 @@
----
-title: "Esquisse Code-Through"
-author: "Michael Kulbida"
-date: "10/9/2020"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Explatory data analysis is one of the key functions of R.  Being able to quickly identify possible trends in data to dive deeper into is an essential part of any evaluation. The package 'ggplot2' creates a process for users to form graphs and visualizations of their data to help achieve this.  Although helpful, 'ggplot2' requires users to create an individual chunk of code for each graph, and does not lend itself to a rapid overview of general trends.
 
@@ -36,7 +26,7 @@ esquisse::esquisser()
 # Loading Data
 Once you launch the 'esquisse' interface, you will be brought to an initial screen where you select your dataset that you will be examining.  If you have a dataset (or multiple) loaded into Rstudio already, it will automatically pull those into the selection menu.
 
-![Initial Start-up Screen](images/initial.png){width=100%}
+![Initial Start-up Screen](https://github.com/Mkulbida/mikekulbida/images/initial.png){width=100%}
 
 We would then like to choose a dataset to analyze, which can be done by selecting the drop down menu under "Select a Dataset."  If you do not have a dataset loaded into R (as in this example) 'esquisse' will automatically import all of the standard datasets from 'ggplot2'. In this example we will be utilizing the "txhousing" data set, which examines housing sales in cities across Texas from 2003 to 2015.
 
