@@ -100,22 +100,5 @@ Although it may be interesting to build visualizations like this for the fun of 
 
 By selection the "Insert code in script" link on this panel, you can insert the code chunk required to build this graph directly into your open RStudio file.  The code will include the library() function for any packages required to build the graph, which will always be 'ggplot2' and 'dplyr'. The ease at which 'esquisse' allows a user to create and edit visualizations makes this program a must have.
 
-
-library(dplyr)
-library(ggplot2)
-
-txhousing %>%
- filter(city %in% c("Austin", "Dallas", "El Paso", "Fort Worth", "Houston", 
-"San Antonio", "Waco")) %>%
- filter(year >= 2008L & year <= 2015L) %>%
- filter(date >= 
-    2008L & date <= 2015L) %>%
- ggplot() +
- aes(x = listings, y = median, colour = city) +
- geom_point(size = 1) +
- geom_smooth(span = 0.75) +
- scale_color_hue() +
- labs(x = "Active Home Listings", y = "Median Sale Price", title = "Effect of Housing Supply on Median Sale Price", subtitle = "An examination of 7 Texas cities from 2008 to 2015", color = "Cities") +
- theme_minimal()
-
-
+![](url:https://github.com/Mkulbida/mikekulbida/blob/master/images/codechunk.png)
+![](url:https://github.com/Mkulbida/mikekulbida/blob/master/images/final_product.png)
