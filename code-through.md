@@ -31,7 +31,7 @@ We would then like to choose a dataset to analyze, which can be done by selectin
 
 From this window you can also change the vector of a particular variable by using the "Coerce" drop down menus towards the bottom of the page as well as select which variables you would like to be included in the analysis.  For this example however we do not need to utilize either of these and we are free to initialize the tool by selecting the "Validate Imported Data" button.
 
-![](https://github.com/Mkulbida/mikekulbida/blob/master/images/validate_data.png)
+![](images/validate_data.png)
 
 # Building your Visualization
 ### Selecting a Graph Type
