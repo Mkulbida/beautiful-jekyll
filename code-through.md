@@ -1,4 +1,6 @@
 
+# Esquisse Code-Through
+
 Explatory data analysis is one of the key functions of R.  Being able to quickly identify possible trends in data to dive deeper into is an essential part of any evaluation. The package 'ggplot2' creates a process for users to form graphs and visualizations of their data to help achieve this.  Although helpful, 'ggplot2' requires users to create an individual chunk of code for each graph, and does not lend itself to a rapid overview of general trends.
 
 However, the 'esquisse' add-in allows users to rapidly view and alter visualizations via an interface, allowing several different types of visualizations to be created with ease in the matter of seconds.
