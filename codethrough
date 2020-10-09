@@ -40,23 +40,23 @@ Once you launch the 'esquisse' interface, you will be brought to an initial scre
 
 We would then like to choose a dataset to analyze, which can be done by selecting the drop down menu under "Select a Dataset."  If you do not have a dataset loaded into R (as in this example) 'esquisse' will automatically import all of the standard datasets from 'ggplot2'. In this example we will be utilizing the "txhousing" data set, which examines housing sales in cities across Texas from 2003 to 2015.
 
-![](images/select_df.png)
+![](https://github.com/Mkulbida/mikekulbida/images/select_df.png)
 
 From this window you can also change the vector of a particular variable by using the "Coerce" drop down menus towards the bottom of the page as well as select which variables you would like to be included in the analysis.  For this example however we do not need to utilize either of these and we are free to initialize the tool by selecting the "Validate Imported Data" button.
 
-![](images/validate_data.png)
+![](https://github.com/Mkulbida/mikekulbida/images/validate_data.png)
 
 # Building your Visualization
 ### Selecting a Graph Type
 Now that we have selected our data that we will be exploring and initialized the interface, we are brought to an empty interface with several different options.
 
-![](images/blank_interface.png)
+![](https://github.com/Mkulbida/mikekulbida/images/blank_interface.png)
 
 
 
 At the top left of the interface, we can see a yellow circle that says "auto" which allows you to select the type of graph you would like to create.  As everything in this interface can be edited, you can change the type of graph with ease by clicking on this, or stay with the "auto" selection which will change the type of the graph to best display the inputs you have selected. As you progress with creating your visualization, certain types will be unavailable to select if they do not allow from proper visualization of your variables. 
 
-![](images/select_graph_type.png)
+![](https://github.com/Mkulbida/mikekulbida/images/select_graph_type.png)
 
 ### Graphing Variables
 
@@ -64,7 +64,7 @@ Now that we have decided to stick with the "auto" graph type selection, we will 
 
 First we would select our x-variable, which in this case would be the number of houses for sale.  This is categorized in the data set as "listings" and so we would drag and drop the "listings" oval into the box labeled "X" directly below.  Our y-variable would be the median housing price, which is contained in the "median" variable, and we would drag and drop that into the "Y" box.  Since we would like to identify trends in individual cities as well as overall, moving the "cities" variable into the "Color" box will color code each individual city to allow for easy identification. This can be done with several other inputs to the graph including size and group by.
 
-![Initial Graph](images/First_graph.png)
+![Initial Graph](https://github.com/Mkulbida/mikekulbida/images/First_graph.png)
 
 
 
@@ -73,7 +73,7 @@ Texas has quite a few cities that are measured by this data set, and right now t
 
 It's fairly clear that we cannot analyze every city in Texas at the same time, so we will narrow it down to the 6 largest cities and include Waco because watching Fixer Upper with Chip and Joanna Gaines happens to be one of my favorite ways to kill time. In order to do this we simply click on the "Data" tab at the bottom of the interface.
 
-![](images/edit_data.png)
+![](https://github.com/Mkulbida/mikekulbida/images/edit_data.png)
 
 In order to eliminate the locations we do not want to analyze, we simply remove them from the "city" window by clicking on the x next to their name.  This will remove them from the analysis, but if you wish to add them back in at a later time you can select them from a list that shows up below the window with all the excluded selections. 
 
@@ -85,30 +85,30 @@ In this window you can filter any of the variables to get the paramaters you wou
 Now that we have our data paramaters defined, we can alter the plot of the graph.  
 By selecting the "Plot Options" panel at the bottom of the interface we are able to quickly edit several key parts of the graph to our liking including the values covered by the x and y axis, point size, color pallate, and the location of the legend within the graph.  
 
-![](images/plot_options.png)
+![](https://github.com/Mkulbida/mikekulbida/images/plot_options.png)
 
 
 A helpful key function of this panel is the "smooth-line" button, which when selected produces a line of best fit to each of the cities, allowing you to quickly observe the trends over time as well as potential outliers.
 
-![Graph with Smooth Line](images/smooth_line.png)
+![Graph with Smooth Line](https://github.com/Mkulbida/mikekulbida/images/smooth_line.png)
 
 
 
 # Title and Labels
 Our graph is almost complete, and the last piece to edit are the custom labels and title.  We can address this by selecting the "Labels & Title" panel at the bottom-left of the interface.
 
-![](images/labels_title.png)
+![](https://github.com/Mkulbida/mikekulbida/images/labels_title.png)
 
 
 In this panel, we can easily add information to our graph to beter define it to anyone who may view it.  We can add in labels for the graph overall, the x and y-axis, as well as the legend (called "Color label" in this example) to allow us to create a finished product.
 
-![Final Product](images/final_graph_w_labels.png)
+![Final Product](https://github.com/Mkulbida/mikekulbida/images/final_graph_w_labels.png)
 
 # Exporting your Visualization
 
 Although it may be interesting to build visualizations like this for the fun of it (I thoroughly enjoyed it), this interface allows you to export your graphs to Rstudio, Powerpoint, or save it as a .png file.  This can be done by selecting the "Export & code" panel on the bottom-right of the interface. 
 
-![](images/select_code.png)
+![](https://github.com/Mkulbida/mikekulbida/images/select_code.png)
 
 
 By selection the "Insert code in script" link on this panel, you can insert the code chunk required to build this graph directly into your open RStudio file.  The code will include the library() function for any packages required to build the graph, which will always be 'ggplot2' and 'dplyr'. The ease at which 'esquisse' allows a user to create and edit visualizations makes this program a must have.
