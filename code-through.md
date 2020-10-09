@@ -72,7 +72,7 @@ In this window you can filter any of the variables to get the paramaters you wou
 
 # Make it look Pretty
 Now that we have our data paramaters defined, we can alter the plot of the graph.  
-By selecting the "Plot Options" panel at the bottom of the interface we are able to quickly edit several key parts of the graph to our liking including the values covered by the x and y axis, point size, color pallate, and the location of the legend within the graph.  
+By selecting the "Plot Options" panel at the bottom of the interface we are able to quickly edit several key parts of the graph to our liking. These include the values covered by the x and y axis, point size, color pallate, and the location of the legend within the graph.  
 
 ![](images/plot_options.png)
 
