@@ -98,7 +98,7 @@ Although it may be interesting to build visualizations like this for the fun of 
 ![](https://github.com/Mkulbida/mikekulbida/blob/master/images/select_code.png)
 
 
-By selection the "Insert code in script" link on this panel, you can insert the code chunk required to build this graph directly into your open RStudio file.  The code will include the library() function for any packages required to build the graph, which will always be 'ggplot2' and 'dplyr'. The ease at which 'esquisse' allows a user to create and edit visualizations makes this program a must have.
+By selecting the "Insert code in script" link on this panel, you can insert the code chunk required to build this graph directly into your open RStudio file.  The code will include the library() function for any packages required to build the graph, which will always be 'ggplot2' and 'dplyr'. The ease at which 'esquisse' allows a user to create and edit visualizations makes this program a must have.
 
 ![](https://github.com/Mkulbida/mikekulbida/blob/master/images/codechunk.png)
 ![](https://github.com/Mkulbida/mikekulbida/blob/master/images/final_product.png)
